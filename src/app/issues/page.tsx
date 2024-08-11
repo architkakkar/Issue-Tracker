@@ -1,10 +1,11 @@
-import React from 'react';
+import { Button } from "@radix-ui/themes";
+import React from "react";
 
 export default function IssuesPage() {
   return (
     <div>
       <h1>Issues</h1>
-      {/* Add content here */}
+      <Button className="cursor-pointer">New Issue</Button>
     </div>
   );
 }
