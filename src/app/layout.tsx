@@ -8,7 +8,7 @@ import { Theme } from "@radix-ui/themes";
 
 const inter = Inter({
   subsets: ["latin"],
-  // display: "swap",
+  display: "swap",
   variable: "--font-inter",
 });
 
